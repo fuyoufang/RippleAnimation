@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C558475426FB774100BBFECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558475326FB774100BBFECC /* AppDelegate.swift */; };
+		C558475626FB774100BBFECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558475526FB774100BBFECC /* SceneDelegate.swift */; };
+		C558475826FB774100BBFECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558475726FB774100BBFECC /* ViewController.swift */; };
+		C558475B26FB774100BBFECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558475926FB774100BBFECC /* Main.storyboard */; };
+		C558475D26FB774A00BBFECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C558475C26FB774A00BBFECC /* Assets.xcassets */; };
+		C558476026FB774A00BBFECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C558475E26FB774A00BBFECC /* LaunchScreen.storyboard */; };
+		C558476B26FB774B00BBFECC /* RippleAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558476A26FB774B00BBFECC /* RippleAnimationTests.swift */; };
+		C558477626FB774B00BBFECC /* RippleAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558477526FB774B00BBFECC /* RippleAnimationUITests.swift */; };
+		C558478726FB776600BBFECC /* RippleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558478626FB776600BBFECC /* RippleAnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C558476726FB774B00BBFECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C558474826FB774100BBFECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C558474F26FB774100BBFECC;
+			remoteInfo = RippleAnimation;
+		};
+		C558477226FB774B00BBFECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C558474826FB774100BBFECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C558474F26FB774100BBFECC;
+			remoteInfo = RippleAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C558475026FB774100BBFECC /* RippleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558475326FB774100BBFECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C558475526FB774100BBFECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C558475726FB774100BBFECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C558475A26FB774100BBFECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C558475C26FB774A00BBFECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C558475F26FB774A00BBFECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C558476126FB774A00BBFECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C558476626FB774B00BBFECC /* RippleAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558476A26FB774B00BBFECC /* RippleAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimationTests.swift; sourceTree = "<group>"; };
+		C558476C26FB774B00BBFECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C558477126FB774B00BBFECC /* RippleAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C558477526FB774B00BBFECC /* RippleAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimationUITests.swift; sourceTree = "<group>"; };
+		C558477726FB774B00BBFECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C558478626FB776600BBFECC /* RippleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C558474D26FB774100BBFECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476326FB774B00BBFECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476E26FB774B00BBFECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C558474726FB774100BBFECC = {
+			isa = PBXGroup;
+			children = (
+				C558475226FB774100BBFECC /* RippleAnimation */,
+				C558476926FB774B00BBFECC /* RippleAnimationTests */,
+				C558477426FB774B00BBFECC /* RippleAnimationUITests */,
+				C558475126FB774100BBFECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C558475126FB774100BBFECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C558475026FB774100BBFECC /* RippleAnimation.app */,
+				C558476626FB774B00BBFECC /* RippleAnimationTests.xctest */,
+				C558477126FB774B00BBFECC /* RippleAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C558475226FB774100BBFECC /* RippleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C558475326FB774100BBFECC /* AppDelegate.swift */,
+				C558475526FB774100BBFECC /* SceneDelegate.swift */,
+				C558475726FB774100BBFECC /* ViewController.swift */,
+				C558475926FB774100BBFECC /* Main.storyboard */,
+				C558475C26FB774A00BBFECC /* Assets.xcassets */,
+				C558475E26FB774A00BBFECC /* LaunchScreen.storyboard */,
+				C558476126FB774A00BBFECC /* Info.plist */,
+				C558478626FB776600BBFECC /* RippleAnimationView.swift */,
+			);
+			path = RippleAnimation;
+			sourceTree = "<group>";
+		};
+		C558476926FB774B00BBFECC /* RippleAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C558476A26FB774B00BBFECC /* RippleAnimationTests.swift */,
+				C558476C26FB774B00BBFECC /* Info.plist */,
+			);
+			path = RippleAnimationTests;
+			sourceTree = "<group>";
+		};
+		C558477426FB774B00BBFECC /* RippleAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C558477526FB774B00BBFECC /* RippleAnimationUITests.swift */,
+				C558477726FB774B00BBFECC /* Info.plist */,
+			);
+			path = RippleAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C558474F26FB774100BBFECC /* RippleAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C558477A26FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimation" */;
+			buildPhases = (
+				C558474C26FB774100BBFECC /* Sources */,
+				C558474D26FB774100BBFECC /* Frameworks */,
+				C558474E26FB774100BBFECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RippleAnimation;
+			productName = RippleAnimation;
+			productReference = C558475026FB774100BBFECC /* RippleAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C558476526FB774B00BBFECC /* RippleAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C558477D26FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimationTests" */;
+			buildPhases = (
+				C558476226FB774B00BBFECC /* Sources */,
+				C558476326FB774B00BBFECC /* Frameworks */,
+				C558476426FB774B00BBFECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C558476826FB774B00BBFECC /* PBXTargetDependency */,
+			);
+			name = RippleAnimationTests;
+			productName = RippleAnimationTests;
+			productReference = C558476626FB774B00BBFECC /* RippleAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C558477026FB774B00BBFECC /* RippleAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C558478026FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimationUITests" */;
+			buildPhases = (
+				C558476D26FB774B00BBFECC /* Sources */,
+				C558476E26FB774B00BBFECC /* Frameworks */,
+				C558476F26FB774B00BBFECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C558477326FB774B00BBFECC /* PBXTargetDependency */,
+			);
+			name = RippleAnimationUITests;
+			productName = RippleAnimationUITests;
+			productReference = C558477126FB774B00BBFECC /* RippleAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C558474826FB774100BBFECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C558474F26FB774100BBFECC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C558476526FB774B00BBFECC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C558474F26FB774100BBFECC;
+					};
+					C558477026FB774B00BBFECC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C558474F26FB774100BBFECC;
+					};
+				};
+			};
+			buildConfigurationList = C558474B26FB774100BBFECC /* Build configuration list for PBXProject "RippleAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C558474726FB774100BBFECC;
+			productRefGroup = C558475126FB774100BBFECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C558474F26FB774100BBFECC /* RippleAnimation */,
+				C558476526FB774B00BBFECC /* RippleAnimationTests */,
+				C558477026FB774B00BBFECC /* RippleAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C558474E26FB774100BBFECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558476026FB774A00BBFECC /* LaunchScreen.storyboard in Resources */,
+				C558475D26FB774A00BBFECC /* Assets.xcassets in Resources */,
+				C558475B26FB774100BBFECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476426FB774B00BBFECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476F26FB774B00BBFECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C558474C26FB774100BBFECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558475826FB774100BBFECC /* ViewController.swift in Sources */,
+				C558475426FB774100BBFECC /* AppDelegate.swift in Sources */,
+				C558475626FB774100BBFECC /* SceneDelegate.swift in Sources */,
+				C558478726FB776600BBFECC /* RippleAnimationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476226FB774B00BBFECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558476B26FB774B00BBFECC /* RippleAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C558476D26FB774B00BBFECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C558477626FB774B00BBFECC /* RippleAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C558476826FB774B00BBFECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C558474F26FB774100BBFECC /* RippleAnimation */;
+			targetProxy = C558476726FB774B00BBFECC /* PBXContainerItemProxy */;
+		};
+		C558477326FB774B00BBFECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C558474F26FB774100BBFECC /* RippleAnimation */;
+			targetProxy = C558477226FB774B00BBFECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C558475926FB774100BBFECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C558475A26FB774100BBFECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C558475E26FB774A00BBFECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C558475F26FB774A00BBFECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C558477826FB774B00BBFECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C558477926FB774B00BBFECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C558477B26FB774B00BBFECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C558477C26FB774B00BBFECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C558477E26FB774B00BBFECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleAnimation.app/RippleAnimation";
+			};
+			name = Debug;
+		};
+		C558477F26FB774B00BBFECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleAnimation.app/RippleAnimation";
+			};
+			name = Release;
+		};
+		C558478126FB774B00BBFECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RippleAnimation;
+			};
+			name = Debug;
+		};
+		C558478226FB774B00BBFECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WH8WQW889D;
+				INFOPLIST_FILE = RippleAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuyoufang.RippleAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RippleAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C558474B26FB774100BBFECC /* Build configuration list for PBXProject "RippleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558477826FB774B00BBFECC /* Debug */,
+				C558477926FB774B00BBFECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C558477A26FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558477B26FB774B00BBFECC /* Debug */,
+				C558477C26FB774B00BBFECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C558477D26FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558477E26FB774B00BBFECC /* Debug */,
+				C558477F26FB774B00BBFECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C558478026FB774B00BBFECC /* Build configuration list for PBXNativeTarget "RippleAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C558478126FB774B00BBFECC /* Debug */,
+				C558478226FB774B00BBFECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C558474826FB774100BBFECC /* Project object */;
+}
